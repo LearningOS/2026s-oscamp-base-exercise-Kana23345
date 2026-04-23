@@ -274,6 +274,7 @@ mod tests {
     use super::*;
 
     #[test]
+
     fn test_double_basic() {
         let nums = vec![1, 2, 3, 4, 5];
         assert_eq!(double_in_thread(nums), vec![2, 4, 6, 8, 10]);
